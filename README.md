@@ -18,6 +18,8 @@ conda list -n jupyter-notebook-pandas --export > env.txt
 # pyenv rehash
 # pyenv activate anaconda3-4.2.0
 # conda create -n jupyter-notebook-pandas python=3.5 --file env.txt
+# pyenv activate anaconda3-4.2.0/envs/jupyter-notebook-pandas
+# pyenv rehash
 ```
 
 
