@@ -10,6 +10,8 @@ pyenv rehash
 # install tools
 conda install pandas matplotlib nb_conda
 conda install -y -c conda-forge jupyter_contrib_nbextensions
+conda install -c anaconda pillow=4.0.0
+
 pyenv rehash
 conda list -n jupyter-notebook-pandas
 conda list -n jupyter-notebook-pandas --export > env.txt
